@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <unordered_map>
 #include "jogo.hpp"
 
 class Jogo_Truco : public IJogo {
@@ -21,6 +22,7 @@ private:
     std::vector<std::string> baralho;
     std::vector<std::string> cartas_jogador1;
     std::vector<std::string> cartas_jogador2;
+    std::unordered_map<std::string, int> ordem_grandeza; // Declaração da variável ordem_grandeza
 };
 
 #endif
