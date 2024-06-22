@@ -10,13 +10,14 @@
 class Jogo_Truco : public IJogo {
 public:
     Jogo_Truco(); // Construtor para inicializar o jogo
-    void explica_jogo();
-    void Start();
+    void explica_jogo() override;
+    void Start() override;
 
 private:
     void distribuir_cartas();
     void jogar_rodada();
     void mostrar_cartas();
+    int escolher_carta(int jogador);
 
     std::vector<std::string> jogadores;
     std::vector<std::string> baralho;
