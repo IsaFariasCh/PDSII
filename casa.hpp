@@ -8,22 +8,33 @@ e o objeto responsável pelo Lobby
 #define CASA_HPP
 
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 
 #include "jogador.hpp"
+#include "jogo.hpp"
 
 class jogador;
 
 class Casa
 {
-  private:
-unsigned int Quantidade_de_jogadores;
 
+  private:
+unsigned int Quantidade_de_jogadores=0;
+
+void preencher_jogadores();
+
+void Set_Quantidade_de_jogadores_Jogador_Entrou(bool);
+
+void Set_Quantidade_de_jogadores_Jogador_Entrou();
+
+void Set_Quantidade_de_jogadores_Jogador_Saiu();
 
   protected:
-//Essa função fala o ranking de moedas dos jogadores  
-void rank();
+//Vetor que contém o registro de todos os jogadores
+std::vector <jogador> jogadores;
+
+  public:
 
 char select_games(int);
 
@@ -31,22 +42,19 @@ void explica_games();
 
 int Get_Quantidade_de_jogadores();
 
-void Set_Quantidade_de_jogadores_Jogador_Entrou();
-
-void Set_Quantidade_de_jogadores_Jogador_Saiu();
-
 void Set_Quantidade_de_jogadores();
 
-//Vetor que contém o registro de todos os jogadores
-std::vector <jogador> jogadores;
+std::string Get_Nome_Jogador(int);
 
-  public:
+
   Casa(int Input_Quantidade_de_jogadores)
   {
     this->Quantidade_de_jogadores=Input_Quantidade_de_jogadores;
+    preencher_jogadores();
   };
-  
-  ~Casa(){rank();};
+
+  ~Casa(){std::cout<<"Volte sempre!!";};
 };
  #endif
+  
   
