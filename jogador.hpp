@@ -3,30 +3,21 @@
 
 #include <iostream>
 #include <string>
+#include "casa.hpp"
 
-#include "jogo.hpp"
-
-class jogo;
+class casa;
 
 class jogador
 {
-//Dando para JOGO o titulo de amigo, jogo pode manipular jogador como bem entender
-    friend jogo;
+    friend casa;
 
     private:
 std::string nome;
-unsigned int moedas;
 
     protected:
-//respectivas funções para o atributo moedas
-    int  Get_moedas();
-    void Set_adicionar_moedas(int );
-    void Set_remover_moedas(int );
-
-//respectivas funções para o atributo nome
-std::string Get_nome();
 
     public:
+    std::string Get_nome();
     jogador(std::string );
 };
 
