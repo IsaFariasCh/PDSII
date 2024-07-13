@@ -2,7 +2,7 @@
 ![tela de incio](https://github.com/iaraalvest/PDSII/assets/170683528/31ae8c26-6ad1-4c90-804d-30528c6657c5)
 
 # Situação
-> :construction: Projeto em construção :construction:
+ Projeto finalizado.
 
 # Apresentação
 
@@ -11,6 +11,8 @@ Um cliente nos procurou querendo um programa funcional para um sistema de jogos 
 * 21 Brasileiro
 * Truco
 * Paciência 
+
+
 
 
 # Solução - visão geral
@@ -30,6 +32,7 @@ O código ficou na seguinte maneira:
 - Cauã: responsável pela main e 21.
 - Iara e Kaylane: responsáveis pelo Truco.
 - Julia Coelho, Julia Moschen e Isabella: responsáveis pelo Paciência.
+- Iara e Kaylane: responsáveis por implementar a programação defensiva, com sugestões do Cauã e Julia Coelho.
 
 A documentação nós definimos com qual tópico cada contribuinte iria ficar responsável, mas com liberdade para alterações caso necessário e sinalizado entre os mesmos, e todas as alterações são possíveis de acompanhar e ver quem realizou pelo commits do GitHub.
 
