@@ -32,7 +32,7 @@ O código ficou na seguinte maneira:
 - Cauã: responsável pela main e 21.
 - Iara e Kaylane: responsáveis pelo Truco.
 - Julia Coelho, Julia Moschen e Isabella: responsáveis pelo Paciência.
-- Iara e Kaylane: responsáveis por implementar a programação defensiva, com sugestões do Cauã e Julia Coelho.
+- Iara, Kaylane e Cauã: responsáveis por implementar a programação defensiva, com sugestões da Julia Coelho.
 
 A documentação nós definimos com qual tópico cada contribuinte iria ficar responsável, mas com liberdade para alterações caso necessário e sinalizado entre os mesmos, e todas as alterações são possíveis de acompanhar e ver quem realizou pelo commits do GitHub.
 
@@ -205,6 +205,7 @@ Durante o jogo, você pode escolher entre as seguintes ações:
   
 - A plataforma em questão também não conseguiu compilar o nosso código, levando-nos a utilizar uma outra plataforma (o Replit) para verificarmos os detalhes ao compilar e executar.
 
+- Depois de testar o codigo identificamos que poderiamos fazer algumas melhorias aplicando a programação defensiva. Adicionamos mensagens de erro caso o usuario selecione algo errado, apção para retornar ao menu caso o usuario deseje sair do jogo antes dapartida encerrar.
 
 
 
