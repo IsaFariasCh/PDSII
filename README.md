@@ -206,8 +206,11 @@ Durante o jogo, você pode escolher entre as seguintes ações:
 - A plataforma em questão também não conseguiu compilar o nosso código, levando-nos a utilizar uma outra plataforma (o Replit) para verificarmos os detalhes ao compilar e executar.
 
 - Depois de testar o codigo identificamos que poderiamos fazer algumas melhorias aplicando a programação defensiva. Fizemos atualizações dos codigos: casa, main, jogo e jogador.
+
       - a cada rodada agora junto com a opção: "insira uma letra para continuar" tem também, "insira 0 para retornar ao menu", dando a opção do usuário sair do jogo a hora que quiser. 
+
       - a cada final da partida o usuário tem a opção de sair do jogo ou retornar ao menu. 
+
       - mensagens de erros e direcionamento caso o usuário insira alguma coisa errada ou que não está disponível para a seleção.
 
 
