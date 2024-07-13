@@ -96,6 +96,8 @@ if(encerrar)break;
     return 0;
 }
 
+
+
 // Atulizações após implementação da programação defensiva 
 #include <iostream>
 #include <vector>
